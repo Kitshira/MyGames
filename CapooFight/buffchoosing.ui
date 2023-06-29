@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BuffChoosing</class>
+ <widget class="QWidget" name="BuffChoosing">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>635</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Choose A Buff !</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="imgs.qrc">
+    <normaloff>:/img/ImagesForCapoo/WindowIcon.png</normaloff>:/img/ImagesForCapoo/WindowIcon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">BuffChoosing{
+background-image: url(:/img/ImagesForCapoo/GiftBackground.png);
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="Speed">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>220</y>
+     <width>151</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Speed + 3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ATK">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>220</y>
+     <width>151</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ATK + 5</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DEF">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>151</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DEF + 3</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="imgs.qrc"/>
+ </resources>
+ <connections/>
+</ui>

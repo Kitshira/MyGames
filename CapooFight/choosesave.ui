@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ChooseSave</class>
+ <widget class="QWidget" name="ChooseSave">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>719</width>
+    <height>716</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ChooseASave</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="imgs.qrc">
+    <normaloff>:/img/ImagesForCapoo/WindowIcon.png</normaloff>:/img/ImagesForCapoo/WindowIcon.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">ChooseSave{
+background-image: url(:/img/ImagesForCapoo/ChooseSaveBackground.png);
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="Save1">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>220</y>
+     <width>531</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Load Save 1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Save2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>370</y>
+     <width>531</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Load Save 2</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Save3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>520</y>
+     <width>531</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Load Save3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BackToMenu">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>660</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BackToMenu</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="imgs.qrc"/>
+ </resources>
+ <connections/>
+</ui>

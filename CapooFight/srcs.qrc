@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../ImagesForCapoo/GameStart.png</file>
+        <file>../ImagesForCapoo/Die.png</file>
+        <file>../ImagesForCapoo/Exit.jpg</file>
+        <file>../ImagesForCapoo/GameBackGround.jpg</file>
+        <file>../ImagesForCapoo/MenuBackGround.png</file>
+        <file>../ImagesForCapoo/ModeFighter.png</file>
+        <file>../ImagesForCapoo/SaveAsArchive.png</file>
+        <file>../ImagesForCapoo/TransParent.png</file>
+        <file>../ImagesForCapoo/LoseWidgetBackground.png</file>
+        <file>../ImagesForCapoo/WinWidBackground.png</file>
+    </qresource>
+</RCC>
